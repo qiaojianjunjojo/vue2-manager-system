@@ -1,6 +1,7 @@
 # Vue后台管理系统 demo
 
->记录自己跟着开源项目一步一步自己搭建项目，学习vue2/vue-cli3用法；耗时2周  
+>记录自己跟着开源项目(https://github.com/lin-xin/vue-manage-system)一步一步自己搭建项目，学习vue2/vue-cli3用法；耗时2周;因为我本人是做python後端偏多,前端也是刚学
+对其中的一些知识的使用做了比较详细的注释说明.
 
 ## Build Setup
 
@@ -15,7 +16,13 @@ npm run dev
 npm run build
 ```
 
-项目使用到的技术点：
+## 项目截图
+### Echarts
+![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms3.png)
+
+### axios
+![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms3.png)
+## 项目使用到的技术点：
 
 1.vue-router(https://router.vuejs.org/zh/guide/#html)  
 使用```<router-link to>``` 创建 a 标签来定义导航链接  
