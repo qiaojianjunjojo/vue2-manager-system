@@ -18,10 +18,10 @@ npm run build
 
 ## 项目截图
 ### Echarts
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms3.png)
+![Image text](https://github.com/qiaojianjunjojo/vue2-manager-system/blob/master/src/assets/1.PNG)
 
 ### axios
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms3.png)
+![Image text](https://github.com/qiaojianjunjojo/vue2-manager-system/blob/master/src/assets/2.PNG)
 ## 项目使用到的技术点：
 
 1.vue-router(https://router.vuejs.org/zh/guide/#html)  
