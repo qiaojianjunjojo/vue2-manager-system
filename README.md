@@ -1,4 +1,4 @@
-# router-demo
+# Vue后台管理系统 demo
 
 >记录自己跟着开源项目一步一步自己搭建项目，学习vue2/vue-cli3用法；耗时2周  
 
@@ -18,7 +18,7 @@ npm run build
 项目使用到的技术点：
 
 1.vue-router(https://router.vuejs.org/zh/guide/#html)  
-使用<router-link to> 创建 a 标签来定义导航链接  
+使用```<router-link to>`` 创建 a 标签来定义导航链接  
 router.push,router.replace,router.go进行编程式的导航  
 路由重定向redirect来导航不存在的页面  
 html5的history hash模式  
