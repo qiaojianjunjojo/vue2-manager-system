@@ -140,6 +140,11 @@ export default {
                     icon: 'el-icon-sugar',
                     index: 'AjaxTest',
                     title: 'Ajax使用'
+                },
+                {
+                    icon: 'el-icon-basketball',
+                    index: 'scrolltable',
+                    title: '滚动table'
                 }
             ]
         };

@@ -13,6 +13,7 @@ import * as echarts from 'echarts'
 import VueI18n from 'vue-i18n' //多語言切換
 import {messages} from './components/common/En-Zh'
 
+import scroll from 'vue-seamless-scroll' //表格滚动插件
 //将$echarts属性全局化，在任何页面在通过this.$echarts调用;加$是为了避免和已被定义的数据、方法、计算属性产生冲突。
 Vue.prototype.$echarts = echarts;
 
@@ -21,6 +22,7 @@ Vue.prototype.$axios = axios
 Vue.use(Vuex);
 Vue.use(VueI18n);
 Vue.use(ElementUI,{size:'small'});
+Vue.use(scroll)
 
 //开启debug模式
 Vue.config.debug = true;

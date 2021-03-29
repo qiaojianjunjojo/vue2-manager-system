@@ -111,6 +111,11 @@ const router = new Router({
                     path: '/AjaxTest',
                     component: () => import(/* webpackChunkName: "donate" */ '../components/SidebarAjaxTest.vue'),
                     meta: { title: 'Ajax使用' }
+                },
+                {
+                    path: '/scrolltable',
+                    component: () => import(/* webpackChunkName: "donate" */ '../components/BaseScrollTable.vue'),
+                    meta: { title: '滚动的table' }
                 }
             ]
         },
